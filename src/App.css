@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.logo{
+    max-width: 300px;
+}
+
+.title{
+    color: #fff;
+    margin: 14px 0;
+}
+
+.category-area{
+    display: flex;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.category-button{
+    font-size: 16px;
+    padding: 4px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-frase{
+    color: #fff;
+    background-color: #1fa4db;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.texto-frase{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    width: 400px;
+    background-color: #fafafa;
+    border-radius: 4px;
+    text-align: center;
+    padding: 14px 22px;
+    margin: 40px 0 0 0;
+    line-height: 150%;
+}
